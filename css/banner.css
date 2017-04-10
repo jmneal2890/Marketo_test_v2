@@ -1,0 +1,48 @@
+.intro_query {
+  margin: 8rem auto 8rem auto; }
+  .intro_query h1 {
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.5rem; }
+  .intro_query h3 {
+    font-weight: 100;
+    line-height: 3rem;
+    margin-top: -1.5rem; }
+  .intro_query ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: -3.45rem 1.2em; }
+  .intro_query li {
+    display: block; }
+  .intro_query a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto; }
+  .intro_query .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: .5rem 1rem;
+    text-decoration: none; }
+  .intro_query .drop_down_menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    .intro_query .drop_down_menu a {
+      color: #4A1691;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: auto;
+      padding: .1rem 5rem .1rem 2rem;
+      display: block;
+      text-align: left; }
+    .intro_query .drop_down_menu a:hover {
+      background-color: #F2F2F2; }
+  .intro_query .dropdown {
+    display: inline-block; }
+  .intro_query .dropdown:hover .drop_down_menu {
+    display: block; }

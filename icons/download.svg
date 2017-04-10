@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="19.8002853" height="20" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.8002853" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="resources" transform="translate(-360.000000, -412.000000)" stroke="#AF01AB">
+            <g id="Section-2" transform="translate(60.000000, 371.000000)">
+                <g id="download" transform="translate(300.914408, 41.000000)">
+                    <use id="Rectangle-10" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                    <g id="Group-12" transform="translate(4.950071, 4.000000)" stroke-width="2">
+                        <path d="M4.90916165,0.803609294 L4.90916165,10.7017544" id="Path-3"></path>
+                        <polyline id="Path-4" points="9.81832329 5.67203035 4.90916165 10.6720303 0 5.67203035"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

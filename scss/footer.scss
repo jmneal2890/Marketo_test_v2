@@ -1,0 +1,83 @@
+.main_footer {
+  background-color: #100232;
+  padding: 1rem 5%;
+  margin: -1rem -1rem;
+  display: flex;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .foot_title {
+    font-weight: 100;
+    font-size: 1.1em;
+  }
+
+  .foot_sub_title {
+    font-weight: 400;
+    font-size: .9em;
+    line-height: 1.4rem;
+  }
+
+  .foot_body {
+    font-weight: 100;
+    font-size: .7em;
+    display: inline-block;
+    line-height: 1.2rem;
+  }
+
+  .marketing_headquarters {
+    max-width: 20%;
+    display: table-cell;
+    padding: 2rem 2rem;
+  }
+
+  .solutions_foot {
+    max-width: 20%;
+    display: table-cell;
+    padding: 2rem 2rem;
+  }
+
+  .get_engaged {
+    max-width: 20%;
+    display: table-cell;
+    padding: 2rem 2rem;
+  }
+
+  .why_marketo {
+    max-width: 20%;
+    display: table-cell;
+    padding: 2rem 2rem;
+  }
+
+  .join_us {
+    max-width: 20%;
+    display: table-cell;
+    padding: 2rem 2rem;
+  }
+
+  .foot_phone {
+    font-size: .8em;
+    font-weight: 100;
+  }
+}
+
+.sub_footer {
+  background-color: #0A0021;
+  padding: 2rem 15%;
+  margin: 0 -1rem -1rem -1rem;
+  display: block;
+
+  p {
+    font-weight: 100;
+    font-size: .5rem;
+    float: left;
+    display: inline-grid;
+  }
+
+  .social {
+    float: right;
+  }
+}

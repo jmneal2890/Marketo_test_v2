@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="42px" viewBox="0 0 43 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-994.000000, -653.000000)">
+            <g transform="translate(0.000000, -16.000000)" id="Group-5">
+                <g transform="translate(0.000000, 618.000000)">
+                    <g id="Group-2" transform="translate(994.500000, 51.000000)">
+                        <g id="fb">
+                            <path d="M0,21 C0,9.40201968 9.40201968,0 21,0 C32.5979803,0 42,9.40201968 42,21 C42,32.5979803 32.5979803,42 21,42 C9.40201968,42 0,32.5979803 0,21 Z" id="back-copy-2" fill="#4A169B"></path>
+                            <path d="M22.4690875,31.8500004 L22.4690875,21.4237795 L25.3471804,21.4237795 L25.7285899,17.830846 L22.4690875,17.830846 L22.4739773,16.0325482 C22.4739773,15.0954559 22.5630136,14.5933404 23.9089489,14.5933404 L25.7082154,14.5933404 L25.7082154,11 L22.829715,11 C19.3721731,11 18.1552079,12.7429593 18.1552079,15.6740687 L18.1552079,17.8312529 L16,17.8312529 L16,21.4241864 L18.1552079,21.4241864 L18.1552079,31.8500004 L22.4690875,31.8500004 Z" id="Shape-Copy-2" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

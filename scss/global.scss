@@ -1,0 +1,55 @@
+//Global Styles
+body {
+  background-image: linear-gradient(-4deg, #4A2099 3%, #100333 100%);
+  color: white;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 1440px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.top_level_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.story_container {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar_container {
+  width: 30%;
+}
+
+.resources {
+  order: 1;
+}
+
+.case_study {
+  order: 2;
+}
+
+.solutions {
+  order: 3;
+}
+
+.marketing_u {
+  order: 4;
+}

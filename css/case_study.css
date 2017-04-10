@@ -1,0 +1,84 @@
+.case_study {
+  background: white;
+  color: black;
+  padding: 2rem 0;
+  margin: 0 auto 2rem auto;
+  width: inherit;
+  height: 100%;
+  display: block; }
+  .case_study h2 {
+    font-weight: 100;
+    font-size: 1.6em;
+    line-height: .2em;
+    padding: 0 5rem; }
+  .case_study h3 {
+    font-weight: 100;
+    font-size: .8em;
+    padding: 0 5rem; }
+  .case_study ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: -2.42rem;
+    margin-left: 16.9rem;
+    font-size: 1.6rem;
+    font-weight: 100; }
+  .case_study li {
+    display: block; }
+  .case_study a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative; }
+  .case_study .dropbtn {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none; }
+  .case_study .drop_down_menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 3;
+    margin-left: 2rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    .case_study .drop_down_menu a {
+      color: #4A1691;
+      font-weight: 100;
+      font-size: .7em;
+      text-decoration: none;
+      padding: 1rem 1.2rem 1rem 2rem;
+      display: block;
+      text-align: left; }
+    .case_study .drop_down_menu a:hover {
+      background-color: #f2f2f2; }
+  .case_study .dropdown {
+    display: inline-block; }
+  .case_study .dropdown:hover .drop_down_menu {
+    display: block; }
+  .case_study .video_thumb {
+    display: block;
+    position: relative; }
+    .case_study .video_thumb img {
+      width: 100%;
+      position: absolute; }
+    .case_study .video_thumb h2 {
+      line-height: 3rem;
+      position: absolute;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      font-size: 1.5em;
+      z-index: 20;
+      color: white; }
+  .case_study .client_scroll {
+    background: #f2f2f2;
+    margin: 0 auto;
+    width: inherit; }
+    .case_study .client_scroll .roche {
+      margin-left: 2rem; }
+    .case_study .client_scroll .gwu {
+      margin-top: .75rem;
+      margin-left: -1rem; }
+    .case_study .client_scroll .fitness {
+      margin-left: 1.5rem;
+      margin-top: .25rem; }
+    .case_study .client_scroll .schwab {
+      margin-top: .5rem;
+      margin-left: 2rem; }
