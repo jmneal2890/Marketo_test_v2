@@ -3,9 +3,7 @@
   color: black;
   padding: 2rem 0;
   margin: 0 auto 2rem auto;
-  width: inherit;
-  height: 100%;
-  display: block; }
+  width: 100%; }
   .case_study h2 {
     font-weight: 100;
     font-size: 1.6em;
@@ -54,7 +52,6 @@
   .case_study .dropdown:hover .drop_down_menu {
     display: block; }
   .case_study .video_thumb {
-    display: block;
     position: relative; }
     .case_study .video_thumb img {
       width: 100%;
@@ -70,7 +67,10 @@
   .case_study .client_scroll {
     background: #f2f2f2;
     margin: 0 auto;
-    width: inherit; }
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem; }
     .case_study .client_scroll .roche {
       margin-left: 2rem; }
     .case_study .client_scroll .gwu {
@@ -80,5 +80,5 @@
       margin-left: 1.5rem;
       margin-top: .25rem; }
     .case_study .client_scroll .schwab {
-      margin-top: .5rem;
+      margin-top: .7rem;
       margin-left: 2rem; }
