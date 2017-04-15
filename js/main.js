@@ -8,6 +8,57 @@ console.log('test 3');
 
 $(document).ready(function(){
 
+  //Main Body Re-order
+  $(function (){
+    $('.drop_down_menu').find('a').on('click', function(){
+      let item = $(this).data('order');
+      console.log(item);
+
+      let displayOrder = [];
+      let resources = $('.resources').css('order');
+      let caseStudy = $('.case_study').css('order');
+      let solutions = $('.solutions').css('order');
+      let marketingU = $('.marketing_u').css('order');
+
+      if (item == 't0') {
+        console.log('default list');
+        $('.story_container').fadeOut();
+        $('.resources').css('order', '1');
+        $('.case_study').css('order', '2');
+        $('.story_container').fadeIn();
+      } else if (item == 't1') {
+        console.log('resources top list');
+        $('.story_container').fadeOut();
+        $('.resources').css('order', '5');
+        $('.case_study').css('order', '2');
+        $('.story_container').fadeIn();
+      } else if (item == 't2') {
+        console.log('case study top list');
+        $('.story_container').fadeOut();
+        $('.resources').css('order', '2');
+        $('.case_study').css('order', '1');
+        $('.story_container').fadeIn();
+      } else if (item == 't3') {
+        console.log('solutions top list');
+        $('.story_container').fadeOut();
+        $('.resources').css('order', '2');
+        $('.case_study').css('order', '3');
+        $('.solutions').css('order', '1');
+        $('.story_container').fadeIn();
+      } else if (item == 't4') {
+        console.log('marking u top list');
+        $('.story_container').fadeOut();
+        $('.resources').css('order', '2');
+        $('.case_study').css('order', '3');
+        $('.solutions').css('order', '4');
+        $('.marketing_u').css('order', '1');
+        $('.story_container').fadeIn();
+      }
+
+    });
+
+  });
+
   //slick slider
   $('.client_scroll').slick({
     dots: false,

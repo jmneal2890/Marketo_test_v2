@@ -20,9 +20,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 auto;
   width: inherit; }
 
 .story_container {
+  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -214,9 +216,9 @@ body {
 .case_study {
   background: white;
   color: black;
+  width: 100%;
   padding: 2rem 0;
-  margin: 0 auto 2rem auto;
-  width: 100%; }
+  margin: 0 auto 2rem auto; }
   .case_study h2 {
     font-weight: 100;
     font-size: 1.6em;
@@ -265,7 +267,8 @@ body {
   .case_study .dropdown:hover .drop_down_menu {
     display: block; }
   .case_study .video_thumb {
-    position: relative; }
+    position: relative;
+    margin: 0 auto; }
     .case_study .video_thumb img {
       width: 100%;
       position: absolute; }
@@ -297,6 +300,12 @@ body {
       margin-left: 2rem; }
 
 .solutions {
+  background-color: white;
+  color: black;
+  display: block;
+  height: 300px; }
+
+.marketing_u {
   background-color: white;
   color: black;
   display: block;

@@ -2,9 +2,9 @@
 .case_study {
   background: white;
   color: black;
+  width: 100%;
   padding: 2rem 0;
   margin: 0 auto 2rem auto;
-  width: 100%;
 
   h2 {
     font-weight: 100;
@@ -80,6 +80,7 @@
 //General Style Continue
   .video_thumb {
     position: relative;
+    margin: 0 auto;
 
     img {
       width: 100%;
